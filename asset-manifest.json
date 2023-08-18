@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/myrouterapp/static/css/main.20836885.css",
+    "main.js": "/myrouterapp/static/js/main.7185dd21.js",
+    "static/media/signup.png": "/myrouterapp/static/media/signup.b431d919de01b6515dd6.png",
+    "static/media/login.png": "/myrouterapp/static/media/login.4d877a447365e5137b67.png",
+    "static/media/frame.png": "/myrouterapp/static/media/frame.3a238e5f26d676376e1d.png",
+    "static/media/Logo.svg": "/myrouterapp/static/media/Logo.fd896773ef070a122541fd8722efa10f.svg",
+    "index.html": "/myrouterapp/index.html",
+    "main.20836885.css.map": "/myrouterapp/static/css/main.20836885.css.map",
+    "main.7185dd21.js.map": "/myrouterapp/static/js/main.7185dd21.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20836885.css",
+    "static/js/main.7185dd21.js"
+  ]
+}
