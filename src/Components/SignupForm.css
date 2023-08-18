@@ -1,0 +1,64 @@
+.name-section {
+    width: 450px;
+    display: flex;
+    gap: 10px;
+}
+
+.name-section label input {
+    width: 220px;
+}
+
+sup {
+    color: red;
+    font-size: 1.1rem;
+}
+
+.stu-inst {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    margin: 0.5rem 0;
+    width: 15rem;
+    border-radius: 25px;
+    padding: 0.5rem 0.5rem;
+    background-color: #161d29;
+}
+.student {
+    text-decoration: none;
+    color: #999daa;
+    font-size: 1.1rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 25px;
+    margin: 0 0.5rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.active{
+    background-color: #000814;
+    transition: all 0.5s linear;
+    transform-origin: left;
+}
+@media (max-width : 1080px) {
+    .name-section {
+        width: 400px;
+    }
+
+    .name-section label input {
+        width: 195px;
+    }
+}
+@media (max-width : 750px) {
+    .name-section {
+        width: 100%;
+        flex-direction: column;
+        margin: -1rem auto;
+        gap: 0;
+    }
+    .name-section label input{
+        margin: 0.5rem auto;
+        width: 100%;
+    }
+
+}
+

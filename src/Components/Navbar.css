@@ -1,0 +1,46 @@
+.nav-container{
+    display: flex;
+    padding-top: 0.8rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 1080px;
+    margin: 0 auto;
+}
+.logoimage{
+    height: 32px;
+    width: 160px;
+}
+.nav-items ul li{
+    list-style: none;
+}
+.nav-items ul{
+    display: flex;
+    gap: 1rem;
+}
+.navlinks{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+.log-btn{
+    font-size: 1.1rem;
+    padding: 0.5rem 0.8rem;
+    margin-left: 0.5rem;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(255, 254, 254, 0.17);
+}
+
+@media (max-width : 1080px) {
+    .nav-container{
+        width: 750px;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width : 750px) {
+    .nav-container{
+        width: 350px;
+    }
+}
