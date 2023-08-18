@@ -1,7 +1,7 @@
 {
-  "name": "myrouterapp",
+  "name": "study-notion",
   "version": "0.1.0",
-  "homepage": "https://akrtimes.github.io/myrouterapp",
+  "homepage": "https://akrtimes.github.io/study-notion",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
